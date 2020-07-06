@@ -4,6 +4,7 @@ body {
   color: #071c4d;
 }
 
+// navbar
 .navbar-brand {
   img {
     max-height: 40px;
@@ -38,5 +39,37 @@ body {
   &:hover {
     background-color: #1e3771;
     color: #ffffff;
+  }
+}
+
+// header
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+
+  h1,
+  p {
+    color: #ffffff;
+  }
+
+  h1 {
+    font-family: 'PlayFair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #FFA143;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #fdbc7a;
+    }
   }
 }

@@ -17,9 +17,11 @@ body {
 }
 
 .btn-navbar-right {
-  margin-top: -10px !important;
+  margin-top: -8px !important;
   margin-bottom: -8px !important;
   margin-right: -18px !important;
+  padding-left: 42px !important;
+  padding-right: 43px !important;
   height: 70px;
   border-radius: 0;
 }
